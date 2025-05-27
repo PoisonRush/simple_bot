@@ -1,7 +1,7 @@
-import logging
+import logging as logger
 
-logger = logging.basicConfig(
-    level=logging.INFO,
+logger.basicConfig(
+    level=logger.INFO,
     filename='errors.log',
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
